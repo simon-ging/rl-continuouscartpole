@@ -1,0 +1,4 @@
+# runs presented in the slides, only the 3 good ones
+vanilla-v6-baseline-step-eval5k
+vanilla-v6-baseline-step-eval20k
+vanilla-v6-baseline-time-eval5k

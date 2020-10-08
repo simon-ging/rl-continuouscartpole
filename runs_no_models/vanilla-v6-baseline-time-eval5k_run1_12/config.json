@@ -1,0 +1,66 @@
+{
+    "algorithm": {
+        "buffer_size": 500000,
+        "comment": "baseline dqn configuration",
+        "name": "dqn",
+        "net": {
+            "batchnorm": false,
+            "encoder_fc_units": [
+                256,
+                256
+            ],
+            "name": "qnet1",
+            "noisy_std": 0.0,
+            "nonlinearity": "relu",
+            "use_dueling": false,
+            "use_noisy": false
+        },
+        "tau": 0.002,
+        "update_every": 4,
+        "use_double_q": false
+    },
+    "comment": "vanilla-v3-shaped: modified vanilla-v1: no batchnorm, shaped reward. fastest time so far, eval score as success metric, more evals",
+    "environment": {
+        "env": "default_cartpole",
+        "env_observ_transform": "sincos"
+    },
+    "eps_scheduler": {
+        "eps_decay": 0.999995,
+        "eps_end": 0.01,
+        "eps_start": 1.0,
+        "name": "mult_decay",
+        "warmup": 0.05
+    },
+    "evaluation": {
+        "eval_every_n_steps": 5000,
+        "eval_n_episodes": 25,
+        "solve_score": 400
+    },
+    "optimizer": {
+        "amsgrad": false,
+        "beta2": 0.999,
+        "eps": 1e-08,
+        "lr": 0.0005,
+        "momentum": 0.9,
+        "name": "adam",
+        "weight_decay": 0
+    },
+    "quantizer": {
+        "quantize_flag": true,
+        "quantize_num": 2
+    },
+    "saving": {
+        "save_best": true,
+        "save_every_n_steps": -1,
+        "save_last": true
+    },
+    "training": {
+        "avg_score_episodes": 100,
+        "batch_size": 256,
+        "discount_factor": 0.99,
+        "max_steps": 1000000,
+        "max_steps_per_episode": 500,
+        "max_steps_per_episode_eval": 500,
+        "reward_function": "shaped_v2"
+    }
+}

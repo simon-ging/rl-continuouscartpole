@@ -1,0 +1,118 @@
+(venv3) [gings@chip rlproject]$ ./eval_stuff.sh
+Experiment: vanilla-v6-baseline-time-eval5k_run1, runs to be evaluated: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+/home/gings/repos/rlproject/venv3/lib/python3.6/site-packages/gym/logger.py:30: UserWarning: WARN: Box bound precision lowered by casting to float32
+  warnings.warn(colorize('%s: %s'%('WARN', msg % args), 'yellow'))
+Old eval file runs_for_eval/vanilla-v6-baseline-time-eval5k_run1_0/eval.json not found
+Current step 310000 not found in eval dict: dict_keys([])
+vanilla-v6-baseline-time-eval5k_run1_0 x1000:  419.813 +-    0.921 range [418 422]
+vanilla-v6-baseline-time-eval5k_run1_1 x1000:  416.037 +-    6.867 range [202 419]
+vanilla-v6-baseline-time-eval5k_run1_2 x1000:  409.580 +-   23.845 range [204 418]
+vanilla-v6-baseline-time-eval5k_run1_3 x1000:  407.255 +-   12.429 range [279 415]
+vanilla-v6-baseline-time-eval5k_run1_4 x1000:  405.071 +-   28.711 range [9 421]
+vanilla-v6-baseline-time-eval5k_run1_5 x1000:  419.939 +-    0.772 range [417 422]
+vanilla-v6-baseline-time-eval5k_run1_6 x1000:  401.439 +-   77.605 range [15 423]
+vanilla-v6-baseline-time-eval5k_run1_7 x1000:  411.879 +-   42.494 range [77 420]
+vanilla-v6-baseline-time-eval5k_run1_8 x1000:  400.570 +-   71.840 range [67 421]
+vanilla-v6-baseline-time-eval5k_run1_9 x1000:  422.955 +-    0.966 range [421 425]
+vanilla-v6-baseline-time-eval5k_run1_10 x1000:  418.547 +-    0.806 range [417 421]
+vanilla-v6-baseline-time-eval5k_run1_11 x1000:  419.866 +-    0.952 range [417 422]
+vanilla-v6-baseline-time-eval5k_run1_12 x1000:  388.724 +-   61.439 range [74 415]
+vanilla-v6-baseline-time-eval5k_run1_13 x1000:  418.431 +-    0.906 range [415 421]
+vanilla-v6-baseline-time-eval5k_run1_14 x1000:  385.216 +-   69.344 range [168 423]
+Stats of mean results per run:
+    Array mean 409.688 stddev 11.662 valuerange 385.216/422.955 var 136.003 num_values (15,)
+Stats of all concatenated results:
+    Array mean 409.688 stddev 40.869 valuerange 9.000/425.000 var 1670.298 num_values (15000,)
+
+Experiment: vanilla-v6-baseline-step-eval20k_run1, runs to be evaluated: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+/home/gings/repos/rlproject/venv3/lib/python3.6/site-packages/gym/logger.py:30: UserWarning: WARN: Box bound precision lowered by casting to float32
+  warnings.warn(colorize('%s: %s'%('WARN', msg % args), 'yellow'))
+vanilla-v6-baseline-step-eval20k_run1_0 x1000:  420.348 +-    0.861 range [419 423]
+vanilla-v6-baseline-step-eval20k_run1_1 x1000:  408.546 +-    1.592 range [404 414]
+vanilla-v6-baseline-step-eval20k_run1_2 x1000:  404.258 +-   31.609 range [176 414]
+vanilla-v6-baseline-step-eval20k_run1_3 x1000:  419.874 +-    0.781 range [417 421]
+vanilla-v6-baseline-step-eval20k_run1_4 x1000:  422.541 +-    0.677 range [421 425]
+vanilla-v6-baseline-step-eval20k_run1_5 x1000:  406.974 +-    5.768 range [397 419]
+vanilla-v6-baseline-step-eval20k_run1_6 x1000:  410.974 +-    3.061 range [340 415]
+vanilla-v6-baseline-step-eval20k_run1_7 x1000:  419.871 +-    1.924 range [410 422]
+vanilla-v6-baseline-step-eval20k_run1_8 x1000:  418.929 +-    1.458 range [415 421]
+vanilla-v6-baseline-step-eval20k_run1_9 x1000:  411.604 +-    3.137 range [373 416]
+vanilla-v6-baseline-step-eval20k_run1_10 x1000:  414.071 +-   23.208 range [112 419]
+vanilla-v6-baseline-step-eval20k_run1_11 x1000:  420.640 +-    5.085 range [399 425]
+vanilla-v6-baseline-step-eval20k_run1_12 x1000:  415.045 +-    0.996 range [405 418]
+vanilla-v6-baseline-step-eval20k_run1_13 x1000:  410.233 +-   11.152 range [379 421]
+vanilla-v6-baseline-step-eval20k_run1_14 x1000:  418.851 +-    1.407 range [414 422]
+Stats of mean results per run:
+    Array mean 414.851 stddev 5.779 valuerange 404.258/422.541 var 33.392 num_values (15,)
+Stats of all concatenated results:
+    Array mean 414.851 stddev 12.164 valuerange 112.000/425.000 var 147.962 num_values (15000,)
+
+experiment: vanilla-v0_run1, runs to be evaluated: [0, 1, 2, 3, 4, 5, 6]
+vanilla-v0_run1_0 x1000:  409.682 +-   48.637 range [35 419]
+vanilla-v0_run1_1 x1000:  381.058 +-   94.876 range [91 424]
+vanilla-v0_run1_2 x1000:   14.796 +-    2.942 range [7 24]
+vanilla-v0_run1_3 x1000:  415.082 +-    1.234 range [411 417]
+vanilla-v0_run1_4 x1000:  420.625 +-    0.913 range [417 422]
+vanilla-v0_run1_5 x1000:  412.600 +-    1.198 range [409 416]
+vanilla-v0_run1_6 x1000:  418.118 +-    0.835 range [416 420]
+Stats of mean results per run:
+    Array mean 353.137 stddev 149.779 valuerange 14.796/420.625 var 22433.624 num_values (7,)
+Stats of all concatenated results:
+    Array mean 353.137 stddev 144.416 valuerange 7.000/424.000 var 20855.910 num_values (7000,)
+LATEX not found, deactivating...
+Plot saved to test/eval/vanilla-v0_run1_eval1000ep.png
+
+(venvrl) λ python -m src.eval vanilla-v6-baseline-step-eval5k run1 --eval_episodes 1000 --log_dir runs_best
+experiment: vanilla-v6-baseline-step-eval5k_run1, runs to be evaluated: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+Reloading existing eval: vanilla-v6-baseline-step-eval5k_run1_0 x1000:  416.142 +-    1.556 range [410 419]
+Reloading existing eval: vanilla-v6-baseline-step-eval5k_run1_1 x1000:  410.147 +-    2.026 range [396 415]
+Reloading existing eval: vanilla-v6-baseline-step-eval5k_run1_2 x1000:  420.772 +-    1.044 range [417 423]
+Reloading existing eval: vanilla-v6-baseline-step-eval5k_run1_3 x1000:  395.070 +-   60.926 range [135 421]
+Reloading existing eval: vanilla-v6-baseline-step-eval5k_run1_4 x1000:  413.302 +-    3.847 range [305 417]
+Reloading existing eval: vanilla-v6-baseline-step-eval5k_run1_5 x1000:  419.566 +-    0.771 range [416 421]
+Reloading existing eval: vanilla-v6-baseline-step-eval5k_run1_6 x1000:  417.265 +-    2.647 range [408 421]
+Reloading existing eval: vanilla-v6-baseline-step-eval5k_run1_7 x1000:  426.500 +-    0.842 range [420 428]
+Reloading existing eval: vanilla-v6-baseline-step-eval5k_run1_8 x1000:  413.588 +-   12.271 range [234 420]
+Reloading existing eval: vanilla-v6-baseline-step-eval5k_run1_9 x1000:  409.437 +-   12.896 range [115 414]
+Reloading existing eval: vanilla-v6-baseline-step-eval5k_run1_10 x1000:  416.242 +-    1.434 range [412 419]
+Reloading existing eval: vanilla-v6-baseline-step-eval5k_run1_11 x1000:  418.416 +-    0.734 range [417 420]
+Reloading existing eval: vanilla-v6-baseline-step-eval5k_run1_12 x1000:  408.791 +-    1.646 range [404 413]
+Reloading existing eval: vanilla-v6-baseline-step-eval5k_run1_13 x1000:  414.798 +-    4.133 range [395 419]
+Reloading existing eval: vanilla-v6-baseline-step-eval5k_run1_14 x1000:  424.389 +-    1.982 range [410 426]
+Stats of mean results per run:
+    Array mean 414.962 stddev 7.509 valuerange 395.070/426.500 var 56.383 num_values (15,)
+Stats of all concatenated results:
+    Array mean 414.962 stddev 18.021 valuerange 115.000/428.000 var 324.771 num_values (15000,)
+Plot saved to test\eval\vanilla-v6-baseline-step-eval5k_run1_eval1000ep.png
+
+d:\rlproject (master -> origin)
+(venvrl) λ python -m src.run lander-v1 run1
+LOADED CONFIG config\experiments\lander-v1.json
+{'algorithm': {'buffer_size': 500000,
+               'comment': 'baseline dqn configuration',
+               'name': 'dqn',
+               'net': {'batchnorm': False,
+                       'encoder_fc_units': [128, 128],
+                       'name': 'qnet1',
+                       
+(venvrl) λ python -m src.eval vanilla-v6-baseline-step-train run1 --eval_episodes 1000 --log_dir runs_best
+experiment: vanilla-v6-baseline-step-train_run1, runs to be evaluated: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+Reloading existing eval: vanilla-v6-baseline-step-train_run1_0 x1000:  419.894 +-    3.681 range [396 423]
+Reloading existing eval: vanilla-v6-baseline-step-train_run1_1 x1000:  420.561 +-    0.887 range [417 423]
+Reloading existing eval: vanilla-v6-baseline-step-train_run1_2 x1000:  418.748 +-    0.873 range [417 421]
+Reloading existing eval: vanilla-v6-baseline-step-train_run1_3 x1000:  418.615 +-    0.909 range [415 421]
+Reloading existing eval: vanilla-v6-baseline-step-train_run1_4 x1000:  423.219 +-    0.812 range [421 425]
+Reloading existing eval: vanilla-v6-baseline-step-train_run1_5 x1000:  421.973 +-    0.765 range [421 424]
+Reloading existing eval: vanilla-v6-baseline-step-train_run1_6 x1000:  422.240 +-    2.603 range [398 425]
+Reloading existing eval: vanilla-v6-baseline-step-train_run1_7 x1000:  420.996 +-    1.413 range [417 424]
+Reloading existing eval: vanilla-v6-baseline-step-train_run1_8 x1000:  419.127 +-    2.963 range [409 423]
+Reloading existing eval: vanilla-v6-baseline-step-train_run1_9 x1000:  422.558 +-    6.585 range [409 430]
+Reloading existing eval: vanilla-v6-baseline-step-train_run1_10 x1000:  421.187 +-    0.792 range [419 423]
+Reloading existing eval: vanilla-v6-baseline-step-train_run1_11 x1000:  417.549 +-    0.699 range [416 419]
+Reloading existing eval: vanilla-v6-baseline-step-train_run1_12 x1000:  421.468 +-    1.116 range [416 423]
+Reloading existing eval: vanilla-v6-baseline-step-train_run1_13 x1000:  415.348 +-    1.039 range [413 420]
+Reloading existing eval: vanilla-v6-baseline-step-train_run1_14 x1000:  420.212 +-    0.736 range [418 422]
+Stats of mean results per run:
+    Array mean 420.246 stddev 2.100 valuerange 415.348/423.219 var 4.409 num_values (15,)
+Stats of all concatenated results:
+    Array mean 420.246 stddev 3.095 valuerange 396.000/430.000 var 9.581 num_values (15000,)

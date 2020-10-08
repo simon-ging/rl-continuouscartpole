@@ -1,0 +1,7 @@
+gym
+tqdm
+jupyter
+matplotlib
+opencv-python
+numpy
+nltk

@@ -1,0 +1,63 @@
+{
+    "comment": "vanilla-v4-baseline + tau 1e-3",
+    "quantizer": {
+        "quantize_flag": true,
+        "quantize_num": 2
+    },
+    "training": {
+        "batch_size": 256,
+        "discount_factor": 0.99,
+        "reward_function": "shaped_v2",
+        "max_steps": 1000000,
+        "max_steps_per_episode": 500,
+        "max_steps_per_episode_eval": 500,
+        "avg_score_episodes": 100
+    },
+    "optimizer": {
+        "name": "adam",
+        "lr": 5e-4,
+        "momentum": 0.9,
+        "beta2": 0.999,
+        "eps": 1e-8,
+        "weight_decay": 0,
+        "amsgrad": false
+    },
+    "eps_scheduler": {
+        "name": "mult_decay",
+        "eps_start": 1.0,
+        "eps_end": 0.01,
+        "eps_decay": 0.999995,
+        "warmup": 0.05
+    },    
+    "algorithm": {
+        "name": "dqn",
+        "comment": "baseline dqn configuration",
+        "buffer_size": 500000,
+        "tau": 1e-3,
+        "update_every": 4,
+        "use_double_q": true,
+        "net": {
+            "name": "qnet1",
+            "use_noisy": false,
+            "noisy_std": 0.0,
+            "use_dueling": true,
+            "encoder_fc_units": [256, 256],
+            "batchnorm": false,
+            "nonlinearity": "selu"
+        }
+    },
+    "evaluation": {
+        "eval_every_n_steps": 20000,
+        "eval_n_episodes": 25,
+        "solve_score": 400
+    },
+    "saving": {
+        "save_every_n_steps": -1,
+        "save_last": true,
+        "save_best": true
+    },
+    "environment": {
+        "env": "default_cartpole",
+        "env_observ_transform": "sincos"
+    }
+}

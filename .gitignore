@@ -1,0 +1,79 @@
+# output
+runs/
+test/
+test_videos/
+performance/
+
+# profile results
+profiling/*.pstats
+
+# windows links
+*.lnk
+
+# large files
+*.hdf5
+*.pkl
+*.gz
+*.pt
+*-ubyte
+
+# directory
+.directory
+.DS_Store
+
+# vim
+*.swp
+*.exe.stackdump
+
+# pycharm idea folders
+.idea/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+target/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+*.manifest
+*.spec
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+.python-version
+
+# Jupyter Notebook
+.ipynb_checkpoints
+profile_default/
+ipython_config.py
